@@ -48,7 +48,7 @@ if (nombreApellido === null) {
                 if (cuotas === 1) {
                     alert("El costo total en 1 pago es: " + costoTotal + " pesos.");
                 } else if (cuotas === 3) {
-                    var costoConIntereses = costoTotal * 1.15; // 15% de interés en 3 pagos
+                    var costoConIntereses = costoTotal * 1.25; // 15% de interés en 3 pagos
                     alert("El costo total en 3 pagos con 15% de interés es: " + costoConIntereses + " pesos.");
                 } else if (cuotas === 6) {
                     var costoConIntereses = costoTotal * 1.40; // 40% de interés en 6 pagos
